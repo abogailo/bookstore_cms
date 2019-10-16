@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     # GET /students/edit/52 StudentController, edit action, id =52
     # Default Route Structure :controller/:action/:id
     # get ':controller(/:action(/:id))'
-    get 'categories/show'
+  get 'categories/show'
   get 'categories/new'
   get 'cart/index'
   get 'cart/show'

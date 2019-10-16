@@ -1,5 +1,5 @@
 class BookController < ApplicationController
-  
+  # a controller is able to render a template or re direct to a new location
    layout false
   def index
     #renders a view, template gets set
