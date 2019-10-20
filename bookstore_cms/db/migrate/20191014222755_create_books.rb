@@ -4,10 +4,10 @@ class CreateBooks < ActiveRecord::Migration[6.0]
       t.string :title
       t.string :isbn
       t.text :description
-      t.integer :author_id #foreign key
+      t.integer :author_id 
       t.integer :quantity
       t.string :condition 
-      t.float :price #foreign key
+      t.float :price 
       t.integer :year_published
 
       t.timestamps
